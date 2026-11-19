@@ -499,32 +499,32 @@ form button:hover{
 
     #header {
         height: auto;
-        padding: 10px 12px;
+        padding: 10px 8px;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 8px 12px;
+        gap: 6px 8px;
         box-sizing: border-box;
     }
 
     #webcraft {
         width: 100%;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 2px;
     }
 
     #header .nav {
         margin: 0 !important;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     #join {
-        padding: 5px 12px;
-        border-radius: 8px;
+        padding: 4px 10px;
+        border-radius: 6px;
     }
 
     #fakeHeader {
-        height: 92px;
+        height: 76px;
     }
 
     #page1 {
