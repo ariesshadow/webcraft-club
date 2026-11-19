@@ -499,32 +499,36 @@ form button:hover{
 
     #header {
         height: auto;
-        padding: 10px 8px;
+        padding: 10px 14px;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 6px 8px;
+        justify-content: space-between;
+        gap: 8px 6px;
         box-sizing: border-box;
     }
 
     #webcraft {
-        width: 100%;
-        text-align: center;
+        width: auto;
         font-size: 20px;
-        margin-bottom: 2px;
-    }
-
-    #header .nav {
         margin: 0 !important;
-        font-size: 12px;
+        order: 1;
     }
 
     #join {
-        padding: 4px 10px;
+        padding: 5px 12px;
         border-radius: 6px;
+        font-size: 12px;
+        margin: 0 !important;
+        order: 2;
+    }
+
+    #header .nav:not(#webcraft):not(#join) {
+        margin: 0 !important;
+        font-size: 12px;
+        order: 3;
     }
 
     #fakeHeader {
-        height: 76px;
+        height: 82px;
     }
 
     #page1 {
